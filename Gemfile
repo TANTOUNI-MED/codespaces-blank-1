@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'puma'
+gem 'puma', '>=3.0.2'
 gem 'rails'
 # gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
@@ -16,4 +16,3 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
 end
-
